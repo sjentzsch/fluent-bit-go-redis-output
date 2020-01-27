@@ -20,4 +20,7 @@ clean:
 	rm -rf *.so *.h *~
 
 dockerimage:
-	docker build -t majst01/fluent-bit-go-redis-output .
+	docker build --no-cache -t sjentzsch/fluent-bit-go-redis-output .
+
+dockerpush:
+	docker push sjentzsch/fluent-bit-go-redis-output
