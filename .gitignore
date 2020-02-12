@@ -1,3 +1,4 @@
 vendor
 out_redis.h
 out_redis.so
+coverage.txt
